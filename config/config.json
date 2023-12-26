@@ -1,0 +1,15 @@
+{
+    "development": {
+      "mongoURI": "mongodb://localhost:27017/sports_scheduler",
+      "dialect": "mongodb"
+    },
+    "test": {
+      "mongoURI": "mongodb://localhost:27017/database_test",
+      "dialect": "mongodb"
+    },
+    "production": {
+      "mongoURI": "process.env.DATABASE_VARIABLE",
+      "dialect": "mongodb"
+    }
+  }
+  
